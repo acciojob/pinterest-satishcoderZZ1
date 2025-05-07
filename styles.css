@@ -1,32 +1,27 @@
 .hero{
 	display:flex;
-	justify-content:space-around;
+	justify-content:space-between;
 	align-items:center;
-	margin:10px;
+	box-sizing:border-box;
 }
-.hero, img{
+.hero-image,img{
 	width:300px;
-	height:300px;
+	height:200px;
 	object-fit:cover;
 }
-button{
-	padding:10px;
-	background-color:red;
-	color:red;
-	border:none;
-	border-radius:5px;
-	margin-left:20px;
-	color:white;
-	
-}
-.parag{
-	
+.hero-content{
+	max-width:50%;
+	margin:10px;
 }
 h2{
 	font-size:20px;
-	margin:20px;
 }
-p{
-	margin-left:20px;
-	width:150px;
+.explore-btn{
+	display:inline-block;
+	background-color:red;
+	color:white;
+	padding:12px 24px;
+	border-radius:5px;
+	text-decoration:none;
+	font-weight:bold;
 }
